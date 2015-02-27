@@ -1,0 +1,59 @@
+/* signup.html > sction > */
+.main.style4.primary.signupForm {
+	padding: 7em 0 7em 0;
+}
+#signup_form {
+	text-align: center;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+/*input size + align 2*/
+.signup_form {
+	color: rgb(184, 138, 120);
+	text-align: center;
+	padding: 0 1em 0 1em;
+	font-size: 100%;
+}
+
+/*input size + align 1*/
+input#email, input#certkey, input#password, input#password2 {
+	width: 40%;
+	color: white;
+	display: inline;
+	margin-right: 3%;
+	background-color: rgba(77,155,183,0.6);
+}
+#reset {
+	width: 6%;
+}
+.signup_input {
+	float: center;
+}
+.sign_text {
+	width: 14%;
+	margin: 2% 3% 0 0;
+	float: center;
+	color: #0c4881;
+	font-size: 1em;
+	margin-right: 3%;
+	display: inline;
+}
+.sign_button {
+	width: 24%;
+	float: center;
+	font-size: 0.9em;
+}
+.margintop {
+	margin-top: 0.8em;
+}
+.sign_number {
+	font-size: 75%;
+	text-align: left;
+	padding: 3% 8%;
+	color: #0c4881;
+	line-height: 50px;
+}
+.button_some {
+	width: 15%;
+	color: rgba(77,155,183,0.6);
+	background-color: white;
+}

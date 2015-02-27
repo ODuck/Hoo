@@ -1,0 +1,225 @@
+@CHARSET "UTF-8";
+
+#solution {
+	background-color: rgba(255, 255, 255, 0.2);
+	max-width: 60%;
+	margin: auto;
+}
+
+.moduleContainer {
+	margin-left: 3%;
+	margin-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	text-align: left;
+	border-bottom: 2px solid white;
+	clear: both;
+	overflow: auto;
+	color: white;
+}
+
+.div-tr {
+	padding: 1% 0;
+}
+
+.div-td {
+	margin-right: 3%;
+}
+
+.div-static {
+	float: left;
+	width: 12.5%;
+	font-size: 80%;
+	margin-right: 3%;
+}
+
+.moduleTitle {
+	width: 19%;
+	float: left;
+	font-family: GODOB, "고도B", GODOBeof, GODOBwoff, sans-serif;
+	font-size: 180%;
+}
+
+.moduleContent {
+	width: 72%;
+	float: right;
+}
+
+.describe {
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+}
+
+.describe p {
+	margin: 0;
+	text-align: left;
+}
+
+.listTitle {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.content {
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 16pt;
+}
+
+/* --- Summary --- */
+.moduleDate {
+	width: 19%;
+	float: left;
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 120%;
+	margin: 17.2% 3%;
+}
+
+.moduleContent .copyright {
+	float: right;
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 12pt;
+}
+
+.moduleContent .logo {
+	background-image: images/ihfb/main_logo/logo_300x100.png";
+	margin-bottom: 40px;
+}
+
+.moduleContent .gradeTitle {
+	border-bottom: 1px solid white;
+	padding-bottom: 5%;
+	font-family: GODOB, "고도B", GODOBeof, GODOBwoff, sans-serif;
+	font-size: 110%;
+}
+
+.moduleContent .gradeResult {
+	font-family: GODOB, "고도B", GODOBeof, GODOBwoff, sans-serif;
+	font-size: 165%;
+}
+
+.moduleContent .gradeContent {
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 110%;
+}
+/* --- Graph --- */
+.moduleContent .engineGraph {
+	width: 48.5%;
+	float: left;
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 150%;
+}
+
+.moduleContent .exposureGraph {
+	width: 48.5%;
+	float: right;
+	font-size: 150%;
+}
+/* --- Image Search --- */
+
+/* --- Static Search --- */
+
+/* --- Dynamic Search --- */
+.moduleResult {
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+}
+
+.list-no {
+	width: 6%;
+	float: left;
+	text-align: center;
+}
+
+.list-label {
+	float: right;
+}
+
+.list-exp {
+	width: 6%;
+	float: left;
+}
+
+.list-head {
+	border-bottom: 1px solid white;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	background-color: rgba(255, 255, 255, 0.2);
+	display: flex;
+}
+
+.list-title {
+	width: 80%;
+	float: left;
+	font-family: GODOM, "고도M", GODOMeof, GODOMwoff, sans-serif;
+	font-size: 18pt;
+	color: #dddddd;
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: normal;
+}
+
+.list-title a {
+	text-decoration: none;
+}
+
+.list-filp {
+	width: 6%;
+	float: left;
+}
+
+.resultContent {
+	display: none;
+}
+
+.upside {
+	border-bottom: 1px solid white;
+}
+
+.snippetContainer {
+	width: 50%;
+	float: left;
+	border-right: 1px solid white;
+}
+
+.snippetContainer .snippetTitle {
+	width: 33%;
+	float: left;
+	padding-right: 2%
+}
+
+.snippetContainer .snippetContent {
+	width: 66%;
+	float: right;
+	padding-right: 3%;
+	font-size: 87%;
+}
+
+.engineContainer {
+	width: 50%;
+	float: right;
+}
+
+.engineContainer .engineTitle {
+	width: 34%;
+	float: left;
+}
+
+.engineContainer .engintContent {
+	width: 60%;
+	float: right;
+	font-size: 87%;
+}
+
+.engineContainer .engintContent p {
+	float: right;
+}
+
+.deleteTitle {
+	width: 12%;
+	float: left;
+}
+
+.deleteContainer {
+	width: 85%;
+	float: right;
+}

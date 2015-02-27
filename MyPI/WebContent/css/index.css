@@ -1,0 +1,42 @@
+/*loginForm - index.html > section*/
+.main.style4.primary.loginForm {
+	padding: 8em 0 0 0;
+}
+/*describe for MyPI - index.html*/
+.Mypi {
+	border-radius: 0.7em;
+}
+
+/*input size - index.html*/
+input#fid, input#fpass {
+	font-size: 16pt;
+	width: 100%;
+	margin: auto auto 16px auto;
+	color: white;
+	float: right;
+	background-color: rgba(77,155,183,0.6);
+}
+.login_session {
+	width: 73%;
+}
+/*Sign in, Sign up control*/
+#login_button {
+	width: 100%;
+	font-size: 16pt;
+}
+#signup_button {
+	left: 0.4%;
+	font-size: 12pt;
+	width: 25%;
+}
+#findinfo_button {
+	margin: 1% 0 1% 3%;
+	right: 0.8%;
+}
+
+.login_text {
+	padding: 0 1.5% 0 8%;
+	margin-bottom: 0em;
+	color: white;
+	font-size: 12pt;
+}
